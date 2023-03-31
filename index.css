@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(94, 148, 148, 0.934);
+    z-index: 0;
+}
+
+.first_Button{
+    font-family: Verdana;
+    border: none;
+    color: white;
+    background-color: #0a0a23;
+    background-repeat:no-repeat;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden; 
+    font-size: x-large;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    z-index: 9;
+}
+
+.second_Button{
+    font-family: Verdana;
+    border: none;
+    color: white;
+    background-color: #0a0a23;
+    background-repeat:no-repeat;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden; 
+    font-size: x-large;
+    position: absolute;
+    top: 25px;
+    right: 180px;
+    z-index: 9;
+}
+
+p{
+    padding: 15px 25px 15px 25px;
+    background-color: rgb(16, 35, 37);
+    border-radius: 10px 90px 15px 40px;
+}
+
+.ME{
+    font-family: Georgia, serif;
+    color: white;
+    font-size: 0.95cm;
+    position: absolute;
+    right: 110px;
+    bottom: 170px;
+    z-index: 10;
+}
+
+.white_sentence{
+    font-size: 1.5cm;
+}
+
+.IM{
+    font-size: 1.15cm;
+    color: rgb(200, 193, 193);
+}
+
+.oektem{
+    font-size: 1.7cm;
+}
+
+.A{
+    font-size: 1.15cm;
+    color: rgb(200, 193, 193);
+}
+
+.Web_Dev{
+    font-size: 1.8cm;
+    color: rgb(144, 60, 71);
+}
+
+.based_in{
+    color: rgba(231, 204, 142, 0.79);
+    line-height: 1.5em;
+}
+
+.div_1{
+    width: 710px;
+    background-color: rgba(24, 22, 22, 0.851);
+    position: absolute;
+    top: 190px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
