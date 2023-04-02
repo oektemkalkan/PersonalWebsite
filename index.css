@@ -5,13 +5,18 @@
 }
 
 body{
-    background-color: rgba(94, 148, 148, 0.934);
+    background-color: rgb(33, 33, 33);
+    font-family: "Roboto",Arial,sans-serif;
     z-index: 0;
+    height: 1100px;
+    width: 1130px;
 }
 
 button:hover{
-    background-color: rgba(47, 31, 31, 0.547);
-    border: solid;
+    background-color: rgba(11, 92, 114, 0.098);
+    border: solid 0.1px;
+    border-left: solid 4px;
+    border-color: rgba(116, 34, 55, 0.706);
     border-color: rgba(255, 255, 255, 0.176);
     color: white;
 }
@@ -20,13 +25,15 @@ button:hover{
     font-family: "Roboto",Arial,sans-serif;
     border: none;
     color: rgb(0, 0, 0);
-    background-color: rgba(231, 204, 142, 0.75);
+    background-color: rgba(216, 247, 247, 0.919);
     background-repeat:no-repeat;
-    padding: 10px 20px 10px 20px;
-    border: none;
-    border-radius: 5px;
+    padding: 10px 20px 10px 15px;
+    border: solid 0.1px;
+    border-left: solid 4px;
+    border-color: rgba(21, 135, 99, 0.808);
+    border-radius: 2px;
     overflow: hidden; 
-    font-size: medium;
+    font-size:small;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -35,7 +42,6 @@ button:hover{
     top: 25px;
     right: 25px;
     cursor: pointer;
-    display: grid;
     z-index: 9;
 }
 
@@ -43,32 +49,38 @@ button:hover{
     font-family: "Roboto",Arial,sans-serif;
     border: none;
     color: rgb(0, 0, 0);
-    background-color: rgba(231, 204, 142, 0.75);
+    background-color: rgba(216, 247, 247, 0.919);
     background-repeat:no-repeat;
-    padding: 10px 20px 10px 20px;
-    border: none;
-    border-radius: 5px;
+    padding: 10px 20px 10px 15px;
+    border: solid 0.1px;
+    border-left: solid 4px;
+    border-color: rgba(21, 135, 99, 0.808);
+    border-radius: 2px;
     overflow: hidden; 
-    font-size: medium;
+    font-size: small;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     transition-duration: 0.4s;
     position: absolute;
     top: 25px;
-    right: 175px;
+    right: 155px;
     cursor: pointer;
-    display: grid;
     z-index: 9;
 }
 
 img{
     position: absolute;
-    top: 0px;
+    top: 90px;
     left: 0px;
+    z-index: -1;
+    border-top: solid 0.1px;
+    border-bottom: solid 2px;
+    border-top-color: rgba(240, 255, 255, 0.682);
+    border-bottom-color: rgba(255, 255, 255, 0.451) ;
 }
 
-p{
+.introduce{
     padding: 15px 25px 15px 25px;
     background-color: rgb(16, 35, 37);
     border-radius: 10px 90px 15px 40px;
@@ -79,7 +91,7 @@ p{
     color: white;
     font-size: 0.95cm;
     position: absolute;
-    right: 100px;
+    right: 70px;
     bottom: 170px;
     z-index: 10;
 }
@@ -113,11 +125,68 @@ p{
 }
 
 .div_1{
-    width: 710px;
+    width: 600px;
+    height: 550px;
     background-color: rgba(24, 22, 22, 0.851);
     position: absolute;
     top: 190px;
     left: 0px;
     bottom: 0px;
     z-index: 1;
+}
+
+.Tech_Stack{
+    position: relative;
+    top: 200px;
+    left: 25px;
+    border-left: solid;
+    padding-left: 5cm;
+    color: rgba(253, 253, 253, 0.832);
+    text-transform: uppercase;
+    z-index: 7;
+    
+}
+
+.ul{
+    position: absolute;
+    top: 285px;
+    left: 90px;
+    font-size: small;
+    color: white;
+    z-index: 7;
+}
+
+.ul_2{
+    position: absolute;
+    top: 285px;
+    left: 360px;
+    font-size: small;
+    color: white;
+    z-index: 7;
+}
+
+.Rechte{
+    position: relative;
+    top: 960px;
+    text-align: center;
+    color: rgba(168, 172, 176, 0.23);
+    z-index: 8;
+}
+
+.Impressum{
+    position: absolute;
+    left: 470px;
+    top: 1080px;
+    bottom: 30px;
+    color: rgba(141, 168, 171, 0.843);
+    z-index: 8;
+}
+
+.Datenschutz{
+    position: absolute;
+    left: 590px;
+    top: 1080px;
+    bottom: 30px;
+    color: rgba(141, 168, 171, 0.843);
+    z-index: 8;
 }
