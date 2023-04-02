@@ -28,7 +28,7 @@ button:hover{
     background-color: rgba(216, 247, 247, 0.919);
     background-repeat:no-repeat;
     padding: 10px 20px 10px 15px;
-    border: solid 0.1px;
+    border: solid 0.05px;
     border-left: solid 4px;
     border-color: rgba(21, 135, 99, 0.808);
     border-radius: 2px;
@@ -52,7 +52,7 @@ button:hover{
     background-color: rgba(216, 247, 247, 0.919);
     background-repeat:no-repeat;
     padding: 10px 20px 10px 15px;
-    border: solid 0.1px;
+    border: solid 0.05px;
     border-left: solid 4px;
     border-color: rgba(21, 135, 99, 0.808);
     border-radius: 2px;
@@ -138,30 +138,69 @@ img{
 .Tech_Stack{
     position: relative;
     top: 200px;
-    left: 25px;
+    left: 30px;
     border-left: solid;
     padding-left: 5cm;
-    color: rgba(253, 253, 253, 0.832);
+    color: rgb(255, 240, 244);
     text-transform: uppercase;
     z-index: 7;
     
 }
 
-.ul{
+.HTML{
     position: absolute;
-    top: 285px;
-    left: 90px;
-    font-size: small;
-    color: white;
+    top: 205px;
+    left: 145px;
+    cursor: default;
     z-index: 7;
 }
 
-.ul_2{
+.CSS{
     position: absolute;
-    top: 285px;
-    left: 360px;
-    font-size: small;
-    color: white;
+    top: 205px;
+    left: 265px;
+    cursor: default;
+    z-index: 7;
+}
+
+.JavaScript{
+    position: absolute;
+    top: 210px;
+    left: 380px;
+    cursor: default;
+    z-index: 7; 
+}
+
+.React{
+    position: absolute;
+    top: 280px;
+    left: 210px;
+    cursor: default;
+    z-index: 7;
+}
+
+.MongoDB{
+    position: absolute;
+    top: 280px;
+    left: 315px;
+    cursor: default;
+    z-index: 7;
+}
+
+.NodeJS{
+    position: absolute;
+    top: 350px;
+    left: 260px;
+    cursor: default;
+    z-index: 7;
+}
+
+.linkedln{
+    position: absolute;
+    top: 650px;
+    left: 255px;
+    color: rgb(130, 183, 229);
+    text-decoration: none;
     z-index: 7;
 }
 
