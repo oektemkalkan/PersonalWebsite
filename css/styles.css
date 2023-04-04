@@ -5,227 +5,219 @@
 }
 
 body{
-    background-color: rgb(33, 33, 33);
+    background-color: rgba(27, 27, 27, 0.919);
     font-family: "Roboto",Arial,sans-serif;
     z-index: 0;
-    height: 1100px;
-    width: 1130px;
+    width: 100vw;
+    height: 85vw;
+    margin: 0;
 }
 
 button:hover{
-    background-color: rgba(11, 92, 114, 0.098);
-    border: solid 0.1px;
+    background-color: rgba(23, 139, 171, 0.459);
+    border: solid 0px;
     border-left: solid 4px;
-    border-color: rgba(116, 34, 55, 0.706);
-    border-color: rgba(255, 255, 255, 0.176);
+    border-color: rgba(116, 34, 55, 0.867);
+    border-color: rgba(255, 255, 255, 0.389);
     color: white;
+    font-size: 1.3vw;
 }
 
-.first_Button{
-    font-family: "Roboto",Arial,sans-serif;
-    border: none;
-    color: rgb(0, 0, 0);
-    background-color: rgba(216, 247, 247, 0.919);
-    background-repeat:no-repeat;
-    padding: 10px 20px 10px 15px;
-    border: solid 0.05px;
+.button_top{
+    position: absolute;
+    padding: 1vw 2vw 1vw 2vw;
+    top: 2vw;
+    margin: 0px;
+    border: 0px;
     border-left: solid 4px;
-    border-color: rgba(21, 135, 99, 0.808);
-    border-radius: 2px;
-    overflow: hidden; 
-    font-size:small;
+    border-color: rgba(17, 154, 111, 0.989);
+    color: rgb(255, 255, 255);
+    background-color: rgba(169, 246, 255, 0.058);
+    background-repeat:no-repeat;
+    font-family: "Roboto",Arial,sans-serif;
+    font-size: 1.2vw;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    transition-duration: 0.4s;
-    position: absolute;
-    top: 25px;
-    right: 25px;
+    transition-duration: 0.45s;
     cursor: pointer;
-    z-index: 9;
 }
 
-.second_Button{
-    font-family: "Roboto",Arial,sans-serif;
-    border: none;
-    color: rgb(0, 0, 0);
-    background-color: rgba(216, 247, 247, 0.919);
-    background-repeat:no-repeat;
-    padding: 10px 20px 10px 15px;
-    border: solid 0.05px;
-    border-left: solid 4px;
-    border-color: rgba(21, 135, 99, 0.808);
-    border-radius: 2px;
-    overflow: hidden; 
-    font-size: small;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    transition-duration: 0.4s;
-    position: absolute;
-    top: 25px;
-    right: 155px;
-    cursor: pointer;
-    z-index: 9;
+.button_contact{
+    right: 2.5vw;
 }
 
-img{
+.button_projects{
+    right: 15.5vw;
+}
+
+.img_1{
     position: absolute;
-    top: 90px;
+    height: 40vw;
+    top: 8vw;
     left: 0px;
-    z-index: -1;
-    border-top: solid 0.1px;
-    border-bottom: solid 2px;
-    border-top-color: rgba(240, 255, 255, 0.682);
-    border-bottom-color: rgba(255, 255, 255, 0.451) ;
+    right: 0px;
+    border-top: solid 1.5px;
+    border-bottom: solid 1.5px;
+    border-color: rgba(17, 154, 111, 0.3);
+    opacity: calc(95%);
+    z-index: -3;
+}
+
+.img_2{
+    position: absolute;
+    height: 45vw;
+    top: 0vw;
+    left: 0px;
+    right: 0px;
+    opacity:calc(10%);
+    filter: brightness(1.5);
+    z-index: -4;
 }
 
 .introduce{
-    padding: 15px 25px 15px 25px;
-    background-color: rgb(16, 35, 37);
+    font-size: 3.2vw;
+    padding: 2vw 2vw 2.3vw 2vw;
+    background-color: rgba(16, 35, 37, 0.98);
     border-radius: 10px 90px 15px 40px;
 }
 
 .ME{
     font-family: Georgia, serif;
     color: white;
-    font-size: 0.95cm;
     position: absolute;
-    right: 70px;
-    bottom: 170px;
-    z-index: 10;
+    right: 8%;
+    top: 12vw;
+    z-index: 3;
 }
 
 .white_sentence{
-    font-size: 1.5cm;
+    font-size: 3.7vw;
 }
 
 .IM{
-    font-size: 1.15cm;
+    font-size: 3.2vw;
     color: rgb(200, 193, 193);
 }
 
 .oektem{
-    font-size: 1.7cm;
+    font-size: 4vw;
 }
 
 .A{
-    font-size: 1.15cm;
+    font-size: 3vw;
     color: rgb(200, 193, 193);
 }
 
 .Web_Dev{
-    font-size: 1.8cm;
+    font-size: 5vw;
     color: rgb(144, 60, 71);
 }
 
 .based_in{
     color: rgba(231, 204, 142, 0.79);
-    line-height: 1.5em;
+    font-size: 2.6vw;
 }
 
 .div_1{
-    width: 600px;
-    height: 550px;
-    background-color: rgba(24, 22, 22, 0.851);
+    background-color: rgba(24, 22, 22, 0.2);
     position: absolute;
-    top: 190px;
+    height: 32vw;
+    top: 12vw;
     left: 0px;
-    bottom: 0px;
-    z-index: 1;
+    border-radius: 0vw 1vw 5vw 0vw;
+    z-index: -2;
+}
+
+.div_2{
+    position: absolute;
+    height: 40vw;
+    top: 8vw;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(255, 255, 255);
+    z-index: -4;
 }
 
 .Tech_Stack{
     position: relative;
-    top: 200px;
-    left: 30px;
+    width: 50%;
+    top: 13vw;
+    left: 2.5vw;
     border-left: solid;
-    padding-left: 5cm;
+    padding-left: 18vw;
     color: rgb(255, 240, 244);
     text-transform: uppercase;
-    z-index: 7;
+    font-size: 2vw;
+    text-decoration: overline;
+    text-decoration-color: rgba(255, 254, 254, 0.382);
+    z-index: 2;
     
 }
 
-.HTML{
+ul{
     position: absolute;
-    top: 205px;
-    left: 145px;
-    cursor: default;
-    z-index: 7;
+    top: 20vw;
+    left: 7vw;
+    font-size: 1.4vw;
+    color: rgb(255, 255, 255);
+    z-index: 3;
 }
 
-.CSS{
+.second_ul{
     position: absolute;
-    top: 205px;
-    left: 265px;
-    cursor: default;
-    z-index: 7;
+    top: 20vw;
+    left: 32vw;
+    font-size: 1.4vw;
+    color: white;
+    z-index: 3; 
 }
 
-.JavaScript{
-    position: absolute;
-    top: 210px;
-    left: 380px;
-    cursor: default;
-    z-index: 7; 
-}
-
-.React{
-    position: absolute;
-    top: 280px;
-    left: 210px;
-    cursor: default;
-    z-index: 7;
-}
-
-.MongoDB{
-    position: absolute;
-    top: 280px;
-    left: 315px;
-    cursor: default;
-    z-index: 7;
-}
-
-.NodeJS{
-    position: absolute;
-    top: 350px;
-    left: 260px;
-    cursor: default;
-    z-index: 7;
+li{
+    padding: 0.5vw 0vw 0.5vw 0.5vw;
+    border-radius: 2vw;
+    background-color: rgba(0, 0, 0, 0.045);
 }
 
 .linkedln{
     position: absolute;
-    top: 650px;
-    left: 255px;
+    top: 40vw;
+    left: 24%;
+    font-size: 1.5vw;
     color: rgb(130, 183, 229);
     text-decoration: none;
-    z-index: 7;
+    z-index: 3;
 }
 
 .Rechte{
-    position: relative;
-    top: 960px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 75vw;
+    left: 75vw;
+    right: 0;
     text-align: center;
-    color: rgba(168, 172, 176, 0.23);
-    z-index: 8;
+    font-size: 1.5vw;
+    color: rgb(152, 153, 154);
+    z-index: 4;
 }
 
 .Impressum{
     position: absolute;
-    left: 470px;
-    top: 1080px;
-    bottom: 30px;
+    top: 76.5vw;
+    left: 62%;
+    font-size: 1.5vw;
+    text-decoration: none;
     color: rgba(141, 168, 171, 0.843);
-    z-index: 8;
+    z-index: 4;
 }
 
 .Datenschutz{
     position: absolute;
-    left: 590px;
-    top: 1080px;
-    bottom: 30px;
+    top: 76.5vw;
+    left: 50%;
+    font-size: 1.5vw;
+    text-decoration: none;
     color: rgba(141, 168, 171, 0.843);
-    z-index: 8;
+    z-index: 4;
 }
